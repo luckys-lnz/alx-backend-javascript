@@ -84,6 +84,7 @@ console.log(int32View[0]); // 42
 **3.** ***Set, Map, and Weak Data Structures***
 
 **3.1** ***set***
+
 A **Set** is a collection of unique values, meaning that no element can appear more than once in a set.
 
 **syantax**
@@ -101,6 +102,7 @@ console.log(mySet); // Set { 1, 2, 3, 4, 5 }
 
 
 **3.2** ***Map***
+
 A **Map** is a collection of key-value pairs where keys can be any data type (including objects or functions).
 
 **syantax**
@@ -122,6 +124,7 @@ console.log(myMap.get('age')); // 25
 
 
 **3.2** ***WeakSet***
+
 A **WeakSet** is similar to a Set, but it only stores objects and holds "weak" references, allowing garbage collection if the object is no longer referenced elsewhere.
 
 **syantax**
@@ -135,6 +138,7 @@ console.log(weakSet.has(obj1)); // true
 
 
 **3.2** ***WeakMap***
+
 A **WeakMap** is like a Map but keys must be objects, and the references to these objects are weak, allowing them to be garbage collected.
 
 **syantax**
