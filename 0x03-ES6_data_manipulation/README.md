@@ -40,7 +40,7 @@ console.log(evenNumbers); // [2, 4]
 
 **1.3** ***reduce()***
 
-The ***reduce()** method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
+The **reduce()** method executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
 
 **syntax**
 ```
